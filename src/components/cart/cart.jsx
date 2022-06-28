@@ -63,4 +63,4 @@ const Cart = () => {
 
 }
 
-export {Cart, addItem}
+export {Cart, addItem,clearCart}

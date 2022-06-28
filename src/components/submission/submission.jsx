@@ -1,7 +1,7 @@
-
 import CartList from "../cart/cart-list"
 import './submission.scss'
 import { useState } from "react"
+import { clearCart } from "../cart/cart"
 
 const Submission = () => {
 
@@ -17,7 +17,7 @@ const Submission = () => {
     return (
         <div>
         <CartList header ='Checkout'/>
-        <form>
+        <form action ="/">
         <div className="form-container">
         <p>Please fill in this form to confirm your delivery.</p>
         <hr></hr>
@@ -33,7 +33,7 @@ const Submission = () => {
 
         <div className="buttons">
         <a className= "clear-button" href='/cart'>Homepage</a>
-        <button className="submit-button" type="submit" value="Submit" onClick={()=>submit()}>Confirm Order</button>
+        <button className="submit-button" type="submit" value="Submit" onClick={()=>{submit(); clearCart()} }>Confirm Order</button>
         </div>
         </div>
         </form>
