@@ -33,7 +33,7 @@ const Submission = () => {
 
         <div className="buttons">
         <a className= "clear-button" href='/cart'>Homepage</a>
-        <button className="submit-button" type="submit" value="Submit" onClick={()=>{submit(); clearCart()} }>Confirm Order</button>
+        <button className="submit-button" onClick={()=>{submit(); clearCart()} }>Confirm Order</button>
         </div>
         </div>
         </form>
