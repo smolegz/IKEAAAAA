@@ -1,1 +1,1 @@
-A project for RVI.
+A project for RVI internship.
