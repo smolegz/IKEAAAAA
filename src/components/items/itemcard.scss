@@ -1,0 +1,84 @@
+.card-container{
+    position: relative;
+    height: 50vh;
+    border: 1px solid rgb(51, 51, 51);
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: left;
+    border-radius: 5px;
+    background-color: rgb(13, 19, 71);
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    
+    h2 {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    margin: 0;
+    }
+    &:hover{
+                 
+        transform: scale(1.01);
+        transition: transform 0.3s cubic-bezier(0,0,.58,1);
+    
+        
+          }
+    }
+
+    .cart-button {
+        position: absolute;
+        bottom: 2.5%;
+        right: 5%;
+        padding: 0.6vh 0.8vw;
+        border: 1px solid rgb(32,20,20   );
+        border-radius: 20px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 105%;
+        background-color: rgb(255, 199, 45);
+        color: white;
+
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(219, 219, 219);
+            border: 1px solid rgb(167, 167, 167);
+            color: black;
+        }
+    }
+
+
+
+.item-name{
+    position: relative;
+    font-size: 120%;
+    margin-left: 1vw;
+    margin-top: 1vh;
+
+}
+
+.card-img{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+}
+
+.description {
+    margin-top: 10%;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    position: absolute;
+    font-size: 0.8vw;
+    top: 50%;
+
+}
+
