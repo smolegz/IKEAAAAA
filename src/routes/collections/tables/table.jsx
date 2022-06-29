@@ -1,5 +1,5 @@
 import Card from '../../../components/items/itemcard'
-import './table.styles.scss'
+
 
 
 const table = [
@@ -70,7 +70,7 @@ const table = [
 const Table = () => {
     
     return(
-        <div className='table-page'>
+        <div className='collection-page'>
         {table.map( ({name, price, imageUrl})=> (<div>
 
         

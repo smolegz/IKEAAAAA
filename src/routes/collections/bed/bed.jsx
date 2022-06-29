@@ -1,5 +1,5 @@
 import Card from '../../../components/items/itemcard'
-import './bed.styles.scss'
+import './collections.styles.scss'
 
 
 const bed = [
@@ -60,7 +60,7 @@ const bed = [
 const Bed = () => {
     
     return(
-        <div className='bed-page'>
+        <div className='collection-page'>
         {bed.map( ({name, price, imageUrl})=> (<div>
 
         

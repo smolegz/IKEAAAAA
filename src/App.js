@@ -2,12 +2,10 @@ import React, { Component }  from 'react';
 import Home from './routes/home/home.component'
 import Categories from './components/categories/category'
 import {Routes, Route} from 'react-router-dom'
-
 import Navigation from './components/navigation/navigation';
 import Chair from './routes/collections/chair/chair'
 import Table from './routes/collections/tables/table'
 import Bed from './routes/collections/bed/bed'
-import Contacts from './components/contacts/contacts'
 import {Cart} from './components/cart/cart'
 import Submission from './components/submission/submission';
 

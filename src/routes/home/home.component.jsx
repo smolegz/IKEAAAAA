@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import Frontpage from '../../components/frontpage/frontpage.component';
 
 const Home = () => {

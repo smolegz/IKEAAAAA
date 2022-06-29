@@ -1,5 +1,7 @@
-.table-page {
-
+.collection-page {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     display: grid;
     flex-direction: row;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -7,5 +9,9 @@
     background: #20002c;  
     background: -webkit-linear-gradient(to bottom, #fdfbfb, #ebedee);  
     background: linear-gradient(to bottom, #fdfbfb, #ebedee); 
+    height: 100vh;
+
+
+
 
 }

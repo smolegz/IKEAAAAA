@@ -1,6 +1,6 @@
 
 import Card from '../../../components/items/itemcard'
-import './chair.styles.scss'
+
 
 
 const chair = [
@@ -53,7 +53,7 @@ const chair = [
 const Chair = () => {
     
     return(
-        <div className='chair-page'>
+        <div className='collection-page'>
         {chair.map( ({name, price, imageUrl})=> (<div>
 
         

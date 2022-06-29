@@ -1,5 +1,3 @@
-
-
 const CartList = ({header}) => {
 
     let myCart = JSON.parse(window.localStorage.getItem('cart'))

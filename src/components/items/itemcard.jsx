@@ -1,4 +1,3 @@
-
 import './itemcard.scss'
 import {addItem} from '../cart/cart'
 
